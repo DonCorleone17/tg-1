@@ -22,7 +22,7 @@ class Anjing extends Hewan {
 
 class Elang extends Hewan {
 	function bersuara(){
-		return "Miiiip";
+		return "Aaaakkk";
 	}
 }
 
@@ -34,7 +34,7 @@ class Angsa extends Hewan {
 
 $momo = new Kucing;
 $momo->jumlah_kaki = 4;
-echo "Momo Adalah Kucing <br>";
+echo "Ronal Adalah Kucing <br>";
 echo "Punya Kaki Sebanyak : ".$momo->jumlah_kaki."<br>";
 $momo->bisa_terbang = "Tidak Bisa Terbang";
 echo $momo->bisa_terbang."<br>";
@@ -44,7 +44,7 @@ echo "<hr>";
 
 $doggo = new Anjing;
 $doggo->jumlah_kaki = 4;
-echo "Doggo Adalah Anjing <br>";
+echo "Doggy Adalah Anjing <br>";
 echo "Punya Kaki Sebanyak : ".$doggo->jumlah_kaki."<br>";
 $doggo->bisa_terbang = "Tidak Bisa Terbang";
 echo $doggo->bisa_terbang."<br>";
@@ -54,7 +54,7 @@ echo "<hr>";
 
 $zya = new Elang;
 $zya->jumlah_kaki = 2;
-echo "Zya Adalah Elang <br>";
+echo "Eaggie Adalah Elang <br>";
 echo "Punya Kaki Sebanyak : ".$zya->jumlah_kaki."<br>";
 $zya->bisa_terbang = "Bisa Terbang";
 echo $zya->bisa_terbang."<br>";
@@ -64,7 +64,7 @@ echo "<hr>";
 
 $masha = new Angsa;
 $masha->jumlah_kaki = 2;
-echo "Masha Adalah Angsa <br>";
+echo "Goosie Adalah Angsa <br>";
 echo "Punya Kaki Sebanyak : ".$masha->jumlah_kaki."<br>";
 $masha->bisa_terbang = "Bisa Terbang";
 echo $masha->bisa_terbang."<br>";
